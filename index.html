@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Spidy&Pink</title>
+	<style type="text/css">
+		.warp{width: 1200px; margin: auto;}
+		section{width: 1050px; position: relative; margin: auto;}
+		.section1{background: url('first.png'); background-size: cover; height: 1277px; overflow: hidden;}
+		.section2{height: 150px}
+		.section3{background: url('sec-back.png'); background-size: cover; height: 1169px; overflow: hidden;}
+
+
+		.mail{width: 909px; display: block; position: absolute; animation: lo 1s infinite alternate;}
+		.spidergwen{width: 465px; display: block; position: absolute; top:50px; right: -30px; transition: all 1s;}
+		.spidergwen:hover {transform: rotate(-10deg);}
+
+		.eye-blue{width: 153px; display: block; position: absolute; top:400px; right: 20px; animation: ro 0.5s infinite alternate;}
+		.close1{width: 150px; display: block; position: absolute; top:410px; right: 22px;}
+
+		.eye-pink{width: 236px;display: block; position: absolute; top:720px; right: 480px; animation: ro 0.72s infinite alternate; z-index: 99;}
+		.close2{width: 236px; display: block; position: absolute; top:725px; right: 480px;}
+
+		.eye-purple{width: 263px; display: block; position: absolute; top:780px; right: 0px; animation: ro 1.3s infinite alternate;}
+		.close3{width:263px; display: block; position: absolute; top:780px; right: 0px;}
+
+		.pinky{width: 623px; display: block; position: absolute; top:550px; right: 15px;}
+		.mountain{width: 1050px; display: block; position: absolute; top:-150px; left: 0px;}
+		.spidy{width: 693px; display: block; position: absolute; top: -207px;}
+		.spidy-sh{width: 693px; display: block; position: absolute; top: -60px;}
+		.smok{width: 844px;display: block; position: absolute; top:-2181px; left: 0px;}
+		.sec-girl{width: 289px; display: block; position: absolute; bottom: 0px; left: 0px;animation: so 2s infinite alternate;}
+		.lip{width: 247px; display: block; position: absolute; top: 325px; right: 75px;}
+		.eye4{width: 185px; display: block; position: absolute; top: 220px; right: 20px; animation: ro 0.5s infinite alternate;}
+		.close4{width: 185px; display: block; position: absolute; top: 220px; right: 20px;}
+		.hand{width: 650px; display: block; position: absolute; bottom: -140px; right: -5px;transition: all 1s;}
+		.hand:hover {transform: rotate(-10deg);}
+
+		@keyframes ro { 
+				to {opacity: 0; position: absolute; z-index: 0;}
+			}
+
+		@keyframes lo { 
+				to {transform: translateY(-3%); position: absolute; z-index: 0;}
+			} 
+		@keyframes so { 
+				to {transform: translateY(5%); position: absolute; z-index: 0;}
+			} 
+
+	</style>
+</head>
+<body>
+	<div class="warp">
+		<section class="section1">
+			<img src="mail.png" class="mail">
+			<img src="spidergwen.png" class="spidergwen">
+
+			<img src="eye1-close.png" class="close1">
+			<img src="eye1.png" class="eye-blue">
+
+			<img src="eye2-close.png" class="close2">
+			<img src="eye2.png" class="eye-pink">
+
+			<img src="eye3-close.png" class="close3">
+			<img src="eye3.png" class="eye-purple">
+			<img src="pinky.png" class="pinky">
+		</section>
+
+		<section class="section2">
+		<img src="mountain.png" class="mountain">
+			<img src="spidy.png" class="spidy-sh">
+		</section>
+		<section class="section3">
+			<img src="sec-girl.png" class="sec-girl">
+			<img src="lip.png" class="lip">
+			<img src="eye4-close.png" class="close4">
+			<img src="eye4.png" class="eye4">
+			<img src="hand.png" class="hand">
+			<img src="spidy.png" class="spidy">
+		</section>
+		<section class="section4">
+		<img src="smok.png" class="smok">
+		</section>
+	</div>
+
+</body>
+</html>
